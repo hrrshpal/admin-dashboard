@@ -5,26 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="sidebar">
-            <h4>Dashboard</h4>
-            <div>
+            <div class="dash">
+                <img class="white-svg" src="icons/view-dashboard.svg" width="50px" height="50px" alt="Dashboard icon">
+                <h2 class="dash-heading">Dashboard</h2>
+            </div>
+            <div class="nav">
                 <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
+                    <div><img class="white-svg" height="20px" width="20px" src="icons/home.svg" alt="home icon"><li>Home</li></div>
+                    <div><img class="white-svg" height="20px" width="20px" src="icons/card-account-details.svg" alt="profile icon"><li>Profile</li></div>
+                    <div><img class="white-svg" height="20px" width="20px" src="icons/message.svg" alt="message icon"><li>Messages</li></div>
+                    <div><img class="white-svg" height="20px" width="20px" src="icons/history.svg" alt="history icon"><li>History</li></div>
+                    <div><img class="white-svg" height="20px" width="20px" src="icons/text-box-multiple-outline.svg" alt="tasks icon"><li>Tasks</li></div>
+                    <div><img class="white-svg" height="20px" width="20px" src="icons/account-group.svg" alt="communities icon"><li>Communities</li></div>
                 </ul>
             </div>
-            <div>
+            <div class="branding">
                 <ul>
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
+                    <div><img class="white-svg" height="20px" width="20px" src="icons/cog.svg" alt="settings icon"><li>Settings</li></div>
+                    <div><img class="white-svg" height="20px" width="20px" src="icons/help-box-outline.svg" alt="support icon"><li>Support</li></div>
+                    <div><img class="white-svg" height="20px" width="20px" src="icons/security.svg" alt="privacy icon"><li>Privacy</li></div>        
                 </ul>
             </div>
         </div>
