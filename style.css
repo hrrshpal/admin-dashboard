@@ -55,3 +55,49 @@ html, body{
 }
 
 
+/* ------------------------HEADER---------------------------- */
+
+/* HEADER */
+.header{
+    box-shadow: 0 4px 10px -6px #222;
+}
+
+/* SEARCH BAR AND ADMIN PANEL*/
+.search-bar, .admin-panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.search, .profile, .admin-info, .buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    gap:30px;
+    align-items: center;
+}
+
+.profile-img{
+    border-radius: 50%;
+}
+
+.search input{
+    width: 600px;
+    height: 30px;
+    background-color: rgb(194,193,193);
+    border: none;
+    border-radius: 30px;
+}
+
+button{
+    background-color: rgba(25,146,212,255);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 40px;
+    font-size: medium;
+    font-weight: bold;
+}
+
