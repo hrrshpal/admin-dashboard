@@ -1,146 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="sidebar">
-            <div class="dash">
-                <img class="white-svg" src="icons/view-dashboard.svg" width="50px" height="50px" alt="Dashboard icon">
-                <h2 class="dash-heading">Dashboard</h2>
+      <div class="sidebar">
+        <div class="dash">
+          <img
+            class="white-svg"
+            src="icons/view-dashboard.svg"
+            width="50px"
+            height="50px"
+            alt="Dashboard icon"
+          />
+          <h2 class="dash-heading">Dashboard</h2>
+        </div>
+        <div class="nav">
+          <ul>
+            <div>
+              <img
+                class="white-svg"
+                height="30px"
+                width="30px"
+                src="icons/home.svg"
+                alt="home icon"
+              />
+              <li>Home</li>
             </div>
-            <div class="nav">
-                <ul>
-                    <div><img class="white-svg" height="30px" width="30px" src="icons/home.svg" alt="home icon"><li>Home</li></div>
-                    <div><img class="white-svg" height="30px" width="30px" src="icons/card-account-details.svg" alt="profile icon"><li>Profile</li></div>
-                    <div><img class="white-svg" height="30px" width="30px" src="icons/message.svg" alt="message icon"><li>Messages</li></div>
-                    <div><img class="white-svg" height="30px" width="30px" src="icons/history.svg" alt="history icon"><li>History</li></div>
-                    <div><img class="white-svg" height="30px" width="30px" src="icons/text-box-multiple-outline.svg" alt="tasks icon"><li>Tasks</li></div>
-                    <div><img class="white-svg" height="30px" width="30px" src="icons/account-group.svg" alt="communities icon"><li>Communities</li></div>
-                </ul>
+            <div>
+              <img
+                class="white-svg"
+                height="30px"
+                width="30px"
+                src="icons/card-account-details.svg"
+                alt="profile icon"
+              />
+              <li>Profile</li>
             </div>
-            <div class="branding">
-                <ul>
-                    <div><img class="white-svg" height="30px" width="30px" src="icons/cog.svg" alt="settings icon"><li>Settings</li></div>
-                    <div><img class="white-svg" height="30px" width="30px" src="icons/help-box-outline.svg" alt="support icon"><li>Support</li></div>
-                    <div><img class="white-svg" height="30px" width="30px" src="icons/security.svg" alt="privacy icon"><li>Privacy</li></div>        
-                </ul>
+            <div>
+              <img
+                class="white-svg"
+                height="30px"
+                width="30px"
+                src="icons/message.svg"
+                alt="message icon"
+              />
+              <li>Messages</li>
             </div>
+            <div>
+              <img
+                class="white-svg"
+                height="30px"
+                width="30px"
+                src="icons/history.svg"
+                alt="history icon"
+              />
+              <li>History</li>
+            </div>
+            <div>
+              <img
+                class="white-svg"
+                height="30px"
+                width="30px"
+                src="icons/text-box-multiple-outline.svg"
+                alt="tasks icon"
+              />
+              <li>Tasks</li>
+            </div>
+            <div>
+              <img
+                class="white-svg"
+                height="30px"
+                width="30px"
+                src="icons/account-group.svg"
+                alt="communities icon"
+              />
+              <li>Communities</li>
+            </div>
+          </ul>
+        </div>
+        <div class="branding">
+          <ul>
+            <div>
+              <img
+                class="white-svg"
+                height="30px"
+                width="30px"
+                src="icons/cog.svg"
+                alt="settings icon"
+              />
+              <li>Settings</li>
+            </div>
+            <div>
+              <img
+                class="white-svg"
+                height="30px"
+                width="30px"
+                src="icons/help-box-outline.svg"
+                alt="support icon"
+              />
+              <li>Support</li>
+            </div>
+            <div>
+              <img
+                class="white-svg"
+                height="30px"
+                width="30px"
+                src="icons/security.svg"
+                alt="privacy icon"
+              />
+              <li>Privacy</li>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header">
+        <div class="search-bar">
+          <div class="search">
+            <img
+              width="30px"
+              height="30px"
+              src="icons/magnify.svg"
+              alt="search icon"
+            />
+            <input type="text" />
+          </div>
+          <div class="profile">
+            <img
+              width="30px"
+              height="30px"
+              src="icons/bell-ring-outline.svg"
+              alt="bell icon"
+            />
+            <img
+              class="profile-img"
+              width="50px"
+              height="50px"
+              src="icons/profile-image.jpg"
+              alt="profile icon"
+            />
+            <h3>Harsh Pal</h3>
+          </div>
         </div>
 
-        <div class="header">
-            <div class="search-bar">
-                <div class="search">     
-                    <img width="30px" height="30px" src="icons/magnify.svg" alt="search icon">
-                    <input type="text">
-                </div>
-                <div class="profile">
-                    <img width="30px" height="30px" src="icons/bell-ring-outline.svg" alt="bell icon">
-                    <img class="profile-img" width="50px" height="50px" src="icons/profile-image.jpg" alt="profile icon">
-                    <h3>Harsh Pal</h3>
-                </div>
+        <div class="admin-panel">
+          <div class="admin-info">
+            <img
+              class="profile-img"
+              width="80px"
+              height="80px"
+              src="icons/profile-image.jpg"
+              alt="profile icon"
+            />
+            <div>
+              <h3>Hi there,</h3>
+              <h2>Harsh Pal (@harsh)</h2>
             </div>
+          </div>
+          <div class="buttons">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </div>
 
-            <div class="admin-panel">
-                <div class="admin-info">
-                    <img class="profile-img" width="80px" height="80px" src="icons/profile-image.jpg" alt="profile icon">
-                    <div>
-                        <h3>Hi there,</h3>
-                        <h2>Harsh Pal (@harsh)</h2>
-                    </div>
-                </div>
-                <div class="buttons">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
-                </div>
+      <div class="main-content">
+        <div class="projects">
+          <h3 class="projects-heading">Your Projects</h3>
+          <div class="project-cards">
+            <div class="project-card">
+              <h3>Super Cool Project</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                veniam.
+              </p>
+              <div class="card-icons">
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/star-plus-outline.svg"
+                  alt="star sign"
+                />
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/eye-plus-outline.svg"
+                  alt="eye sign"
+                />
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/share-variant-outline.svg"
+                  alt="share sign"
+                />
+              </div>
             </div>
+            <div class="project-card">
+              <h3>Less Cool Project</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                veniam.
+              </p>
+              <div class="card-icons">
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/star-plus-outline.svg"
+                  alt="star sign"
+                />
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/eye-plus-outline.svg"
+                  alt="eye sign"
+                />
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/share-variant-outline.svg"
+                  alt="share sign"
+                />
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>Impossible App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                veniam.
+              </p>
+              <div class="card-icons">
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/star-plus-outline.svg"
+                  alt="star sign"
+                />
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/eye-plus-outline.svg"
+                  alt="eye sign"
+                />
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/share-variant-outline.svg"
+                  alt="share sign"
+                />
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>Easy Peasy App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                veniam.
+              </p>
+              <div class="card-icons">
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/star-plus-outline.svg"
+                  alt="star sign"
+                />
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/eye-plus-outline.svg"
+                  alt="eye sign"
+                />
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/share-variant-outline.svg"
+                  alt="share sign"
+                />
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>Ad Blocker</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                veniam.
+              </p>
+              <div class="card-icons">
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/star-plus-outline.svg"
+                  alt="star sign"
+                />
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/eye-plus-outline.svg"
+                  alt="eye sign"
+                />
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/share-variant-outline.svg"
+                  alt="share sign"
+                />
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>Money Maker</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                veniam.
+              </p>
+              <div class="card-icons">
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/star-plus-outline.svg"
+                  alt="star sign"
+                />
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/eye-plus-outline.svg"
+                  alt="eye sign"
+                />
+                <img
+                  width="30px"
+                  height="30px"
+                  src="icons/share-variant-outline.svg"
+                  alt="share sign"
+                />
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="main-content">
-            <div class="projects">
-                <h4>Your Projects</h4>
-                <div class="project">
-                    <h5>Super Cool Project</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam.</p>
-                    star sign, eye sign, share sign
-                </div>
-                <div class="project">
-                    <h5>Less Cool Project</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam.</p>
-                    star sign, eye sign, share sign
-                </div>
-                <div class="project">
-                    <h5>Impossible App</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam.</p>
-                    star sign, eye sign, share sign
-                </div>
-                <div class="project">
-                    <h5>Easy Peasy App</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam.</p>
-                    star sign, eye sign, share sign
-                </div>
-                <div class="project">
-                    <h5>Ad Blocker</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam.</p>
-                    star sign, eye sign, share sign
-                </div>
-                <div class="project">
-                    <h5>Money Maker</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam.</p>
-                    star sign, eye sign, share sign
-                </div>
+        <div class="announcements">
+          <h3 class="announcement-heading">Announcements</h3>
+          <div class="announcement-card">
+            <div class="announcement">
+                <h4>Site Maintenance</h4>
+                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+                odit!</small>
             </div>
-
-            <div class="announcements">
-                <h4>Announcements</h4>
-                <div class="announcement">
-                    <h5>Site Maintenance</h5>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, odit!
-                </div>
-                <br>
-                <div class="announcement">
-                    <h5>Communtiy Share Day</h5>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, odit!
-                </div>
-                <br>
-                <div class="announcement">
-                    <h5>Updated Privacy Policy</h5>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, odit!
-                </div>
+            <hr />
+            <div class="announcement">
+                <h4>Communtiy Share Day</h4>
+                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+                odit!</small>
             </div>
-
-            <div class="trending">
-                <h4>Trending</h4>
-                <div class="profile">
-                    profile image
-                    <p>@tegan</p>
-                    <p>World Peace Builder</p>
-                </div>
-                <div class="profile">
-                    profile image
-                    <p>@morgan</p>
-                    <p>Super Cool Project</p>
-                </div>
-                <div class="profile">
-                    profile image
-                    <p>@kendall</p>
-                    <p>Life Changing App</p>
-                </div>
-                <div class="profile">
-                    profile image
-                    <p>@alex</p>
-                    <p>No Traffic Maker</p>
-                </div>
+            <hr />
+            <div class="announcement">
+                <h4>Updated Privacy Policy</h4>
+                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+                odit!</small>
             </div>
+           </div>
         </div>
+
+        <div class="trending">
+          <h4>Trending</h4>
+          <div class="profile">
+            profile image
+            <p>@tegan</p>
+            <p>World Peace Builder</p>
+          </div>
+          <div class="profile">
+            profile image
+            <p>@morgan</p>
+            <p>Super Cool Project</p>
+          </div>
+          <div class="profile">
+            profile image
+            <p>@kendall</p>
+            <p>Life Changing App</p>
+          </div>
+          <div class="profile">
+            profile image
+            <p>@alex</p>
+            <p>No Traffic Maker</p>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
