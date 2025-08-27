@@ -1,0 +1,12 @@
+.sidebar, .header, .main-content{
+    border: 2px solid red;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar{
+    grid-row: 1/3;
+}
